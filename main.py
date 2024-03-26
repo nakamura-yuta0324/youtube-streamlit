@@ -94,9 +94,9 @@ choices = st.multiselect("買い物リスト", items)
 select_items = ", ".join(choices) if choices else "なし"
 "買うもの：", select_items
 
-#写真
-st.write("Display Image")
-if st.checkbox('Show Image'): #チェックを入れると写真が表示
-    img = Image.open('rion1.jpeg')
-    st.image(img, caption='rion in SAWAMURA', use_column_width=True)
+# #写真
+# st.write("Display Image")
+# if st.checkbox('Show Image'): #チェックを入れると写真が表示
+#     img = Image.open('rion1.jpeg')
+#     st.image(img, caption='rion in SAWAMURA', use_column_width=True)
     
